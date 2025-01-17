@@ -1,0 +1,27 @@
+{
+  "name": "xtermjs",
+  "version": "1.0.0",
+  "description": "terminal emulation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "xterm",
+    "terminal",
+    "emulator"
+  ],
+  "author": "altaccounts",
+  "license": "MIT",
+  "dependencies": {
+    "xterm": "^5.0.0"  
+  },
+  "devDependencies": {
+    "webpack": "^5.88.0",  
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
